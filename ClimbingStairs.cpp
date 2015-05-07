@@ -9,7 +9,7 @@ public:
 		if(n<=0)
 			return 0;
 
-        vector<int> method(n,0);
+        	vector<int> method(n,0);
 		if(n>=1)
 			method[0]=1;
 		if(n>=2)
