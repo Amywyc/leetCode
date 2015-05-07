@@ -17,6 +17,7 @@ public:
 		for(int i=2;i<n;i++)
 			method[i]=method[i-2]+method[i-1];
 		return method[n-1];
+		
     }
 };
 
